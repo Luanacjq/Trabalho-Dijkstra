@@ -1,0 +1,16 @@
+{
+  "name": "rota-jangada",
+  "version": "1.0.0",
+  "description": "Menor caminho para entregas em Fortaleza usando o algoritmo de Dijkstra.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.2"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "site": "node scripts/gerar-site.js"
+  }
+}
